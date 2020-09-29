@@ -3,7 +3,7 @@ let array =[43, 24, 12, 45, 23, 25, 56];
 const selectionSort = function (arr, len) {
     
     if (len >= arr.length){
-        console.log(arr)
+       // console.log(arr)
         return arr;
     }
     let min = len;
